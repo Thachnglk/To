@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ToDoApp="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_item"
+        ToDoApp:showAsAction="ifRoom"
+        android:icon="@drawable/buttonplus"
+        android:title="List Item"/>
+</menu>
